@@ -1,14 +1,45 @@
 #cs1300-gallery {
-  background-color: lightblue;
+  background-color: rgb(124, 185, 138);
+}
+
+h1 {
+  font-family: Arial;
+}
+
+#title{
+  margin: 0;
+  padding: 1rem 1rem;
 }
 
 /* Uncomment below if images are way too big.
 Selects all image tags and makes them 500px;
  */
-/*img {*/
-/*  width: 500px;*/
-/*}*/
+img {
+  /* width: 30%;
+  height: 30%; */
+  width: 30%;
+  max-height: max-content;
+  max-width: max-content
+}
 
 .gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2rem;
+  justify-content: center;
   /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
 }
+
+.gallery-item {
+  padding: 0.5rem;
+}
+
+#fruit-data {
+  margin-left: 2rem;
+  padding: 2rem;
+  border-radius: 2rem;
+  background-color: rgb(245, 187, 241);
+  max-width: 40%;
+  font-family: Arial;
+}
+
